@@ -1,0 +1,17 @@
+html {
+  font-size: 10px;
+}
+
+p {
+  font-size: 30px;
+  color: rgba(30, 175, 78, 0.5);
+}
+
+/* html태그에 정의되어 있는 font-size를 기준으로 크기 정함 */
+.rems {
+  font-size: 1rem;
+}
+
+.ems li {
+  font-size: 1.2em;
+}

@@ -1,0 +1,33 @@
+/* 
+css 우선순위
+id > class = attribute > tag
+ */
+
+h3 {
+  color: red;
+}
+
+/* .class명 >> class로 접근 */
+.blue {
+  color: blue;
+}
+
+/* #id명 >> id로 접근 */
+#green {
+  color: green;
+}
+
+/* [속성] >> 속성으로 접근 */
+[href] {
+  background-color: aqua;
+}
+
+[href="https://www.naver.com/"]
+{
+  background-color: blueviolet;
+}
+
+/* 가상선택자 ex)p태그에 커서 올리면 색변환 */
+p:hover {
+  background-color: cadetblue;
+}
